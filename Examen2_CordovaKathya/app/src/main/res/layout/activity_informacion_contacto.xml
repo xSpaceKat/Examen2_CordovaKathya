@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verde_claro"
+    tools:context=".InformacionContacto">
+
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circulo"/>
+
+    <TextView
+        android:id="@+id/tv_nombreApellidoInformacion"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Apellido"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_compañiaInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compañia"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    
+    
+    <TextView
+        android:id="@+id/tv_correoInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo electronico"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_telefonoInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde_turbulento"
+        android:text="Llamar a Nombre"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+
+</LinearLayout>
